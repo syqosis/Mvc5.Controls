@@ -1,0 +1,7 @@
+C:\Repository\GitHub\Mvc5.Controls\Mvc5.Controls.CheckBox\obj\Debug\Mvc5.Controls.CheckBox.csprojResolveAssemblyReference.cache
+C:\Repository\GitHub\Mvc5.Controls\Mvc5.Controls.CheckBox\bin\Debug\Mvc5.Controls.CheckBox.dll
+C:\Repository\GitHub\Mvc5.Controls\Mvc5.Controls.CheckBox\bin\Debug\Mvc5.Controls.CheckBox.pdb
+C:\Repository\GitHub\Mvc5.Controls\Mvc5.Controls.CheckBox\bin\Debug\Mvc5.Controls.Common.dll
+C:\Repository\GitHub\Mvc5.Controls\Mvc5.Controls.CheckBox\bin\Debug\Mvc5.Controls.Common.pdb
+C:\Repository\GitHub\Mvc5.Controls\Mvc5.Controls.CheckBox\obj\Debug\Mvc5.Controls.CheckBox.dll
+C:\Repository\GitHub\Mvc5.Controls\Mvc5.Controls.CheckBox\obj\Debug\Mvc5.Controls.CheckBox.pdb

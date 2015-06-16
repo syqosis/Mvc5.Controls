@@ -1,0 +1,4 @@
+C:\Repository\GitHub\Mvc5.Controls\Mvc5.Controls.Common\bin\Debug\Mvc5.Controls.Common.dll
+C:\Repository\GitHub\Mvc5.Controls\Mvc5.Controls.Common\bin\Debug\Mvc5.Controls.Common.pdb
+C:\Repository\GitHub\Mvc5.Controls\Mvc5.Controls.Common\obj\Debug\Mvc5.Controls.Common.dll
+C:\Repository\GitHub\Mvc5.Controls\Mvc5.Controls.Common\obj\Debug\Mvc5.Controls.Common.pdb
