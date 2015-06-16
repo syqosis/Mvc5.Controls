@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syqosis.Mvc5.Controls.CheckBox", "Syqosis.Mvc5.Controls.CheckBox\Syqosis.Mvc5.Controls.CheckBox.csproj", "{9A949251-BB60-4132-8DDF-F758DF96AE1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syqosis.Mvc5.Controls.Common", "Syqosis.Mvc5.Controls.Common\Syqosis.Mvc5.Controls.Common.csproj", "{A3244FEE-9CB1-42B1-9127-20DB9F662719}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syqosis.Mvc5.Controls.DropDownList", "Syqosis.Mvc5.Controls.DropdownList\Syqosis.Mvc5.Controls.DropDownList.csproj", "{347121AA-AA9C-4F03-986E-A6B60F04D36E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syqosis.Mvc5.Controls.RadioButtonGroup", "Syqosis.Mvc5.Controls.RadioButtonGroup\Syqosis.Mvc5.Controls.RadioButtonGroup.csproj", "{987A0C28-90B3-4C42-9647-3E671EDD26A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A949251-BB60-4132-8DDF-F758DF96AE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A949251-BB60-4132-8DDF-F758DF96AE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A949251-BB60-4132-8DDF-F758DF96AE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A949251-BB60-4132-8DDF-F758DF96AE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3244FEE-9CB1-42B1-9127-20DB9F662719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3244FEE-9CB1-42B1-9127-20DB9F662719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3244FEE-9CB1-42B1-9127-20DB9F662719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3244FEE-9CB1-42B1-9127-20DB9F662719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347121AA-AA9C-4F03-986E-A6B60F04D36E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347121AA-AA9C-4F03-986E-A6B60F04D36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347121AA-AA9C-4F03-986E-A6B60F04D36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347121AA-AA9C-4F03-986E-A6B60F04D36E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987A0C28-90B3-4C42-9647-3E671EDD26A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987A0C28-90B3-4C42-9647-3E671EDD26A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987A0C28-90B3-4C42-9647-3E671EDD26A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987A0C28-90B3-4C42-9647-3E671EDD26A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

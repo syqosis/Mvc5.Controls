@@ -1,4 +1,4 @@
-﻿namespace Mvc5.Controls
+﻿namespace Syqosis.Mvc5.Controls
 {
 	using System;
 	using System.Collections.Generic;
@@ -8,13 +8,17 @@
 
 	public static class CheckBox
 	{
-		public static MvcHtmlString CheckBoxFor<TModel, TProperty>(this HtmlHelper<TModel> htmlHelper, Expression<Func<TModel, TProperty>> expression, object htmlAttributes)
+		public static MvcHtmlString CheckBoxFor<TModel, TProperty>(this HtmlHelper<TModel> htmlHelper,
+			Expression<Func<TModel, TProperty>> expression,
+			object htmlAttributes)
 		{
 			var attributes = HtmlHelper.AnonymousObjectToHtmlAttributes(htmlAttributes) as IDictionary<string, object>;
 			return htmlHelper.CheckBoxFor(expression, attributes);
 		}
 
-		public static MvcHtmlString CheckBoxFor<TModel, TProperty>(this HtmlHelper<TModel> htmlHelper, Expression<Func<TModel, TProperty>> expression, IDictionary<string, object> htmlAttributes = null)
+		public static MvcHtmlString CheckBoxFor<TModel, TProperty>(this HtmlHelper<TModel> htmlHelper,
+			Expression<Func<TModel, TProperty>> expression,
+			IDictionary<string, object> htmlAttributes = null)
 		{
 			var container = new TagBuilder("div");
 			container.AddCssClass("checkbox");

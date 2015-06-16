@@ -1,4 +1,4 @@
-﻿namespace Mvc5.Controls
+﻿namespace Syqosis.Mvc5.Controls
 {
 	using System;
 	using System.Collections.Generic;
@@ -20,14 +20,25 @@
 			return attributes.Length > 0 ? attributes[0].Description : value.ToString();
 		}
 
-		public static IEnumerable<SelectListItem> ToSelectList(this Enum enumValue)
+		public static IEnumerable<SelectListItem> ToSelectList(this Enum value)
 		{
-			return from Enum e in Enum.GetValues(enumValue.GetType())
+			return from Enum e in Enum.GetValues(value.GetType())
 			       select new SelectListItem {
-				       Selected = e.Equals(enumValue),
+					   Selected = e.Equals(value),
 				       Text = e.ToDescription(),
 				       Value = e.ToString()
 			       };
+		}
+
+		public static IEnumerable<SelectListItem> EnumToSelectList(Type enumerableType, Enum value = null)
+		{
+			return from Enum e in Enum.GetValues(enumerableType)
+				   select new SelectListItem
+				   {
+					   Selected = e.Equals(value),
+					   Text = e.ToDescription(),
+					   Value = e.ToString()
+				   };
 		}
 
 		public static IList<SelectListItem> ToSelectList<TModel, TProperty>(this IEnumerable<TModel> enumerable, Func<TModel, TProperty> key, Func<TModel, string> text)
